@@ -1,5 +1,113 @@
 # Changelog
 
+## [3.0.0](https://github.com/rgcoaz07u/mimir-wallet/compare/mimir-wallet-app-v2.32.0...mimir-wallet-app-v3.0.0) (2025-10-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/rgcoaz07u/mimir-wallet/issues/198))
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/rgcoaz07u/mimir-wallet/issues/323)) ([6e50b34](https://github.com/rgcoaz07u/mimir-wallet/commit/6e50b348e2b42f9510de3d512f25f764ac0676f6))
+* add ai assistant for mimir ([#319](https://github.com/rgcoaz07u/mimir-wallet/issues/319)) ([1499e98](https://github.com/rgcoaz07u/mimir-wallet/commit/1499e9869e22d03aae73aaf7603e7d8a0baa1bb3))
+* Add astar network support ([#230](https://github.com/rgcoaz07u/mimir-wallet/issues/230)) ([93a4777](https://github.com/rgcoaz07u/mimir-wallet/commit/93a4777202547e603358f807ab56bb860df677bb))
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/rgcoaz07u/mimir-wallet/issues/181)) ([e3aeae4](https://github.com/rgcoaz07u/mimir-wallet/commit/e3aeae41514db3b9602b207cff26cd82032eb811))
+* add comprehensive analytics tracking for user interactions ([#326](https://github.com/rgcoaz07u/mimir-wallet/issues/326)) ([72900e9](https://github.com/rgcoaz07u/mimir-wallet/commit/72900e9fc79082529142a25020212ad08d32a6de))
+* Add conviction voting display ([#273](https://github.com/rgcoaz07u/mimir-wallet/issues/273)) ([8934442](https://github.com/rgcoaz07u/mimir-wallet/commit/893444246033b8f36b079ff3bf4c9368a7f5e48f))
+* Add cross-chain calldata display component ([#291](https://github.com/rgcoaz07u/mimir-wallet/issues/291)) ([d337da4](https://github.com/rgcoaz07u/mimir-wallet/commit/d337da480763997b776613ad966a471b6b044d38))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/rgcoaz07u/mimir-wallet/issues/285)) ([ede4f3b](https://github.com/rgcoaz07u/mimir-wallet/commit/ede4f3bab336cc10309d7707351a89ae31e26a5f))
+* add delete address book functionality ([#190](https://github.com/rgcoaz07u/mimir-wallet/issues/190)) ([a195f2d](https://github.com/rgcoaz07u/mimir-wallet/commit/a195f2d708371ad1eaa018f77e8ea44d0529d745))
+* Add dry run API support for transaction simulation ([#207](https://github.com/rgcoaz07u/mimir-wallet/issues/207)) ([a121cf1](https://github.com/rgcoaz07u/mimir-wallet/commit/a121cf1b437ec80af9810835f70dbf4a706b0450))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/rgcoaz07u/mimir-wallet/issues/309)) ([75ffd3c](https://github.com/rgcoaz07u/mimir-wallet/commit/75ffd3cded220d0ca5e0932846d87f40eff764fb))
+* add global account search and refactor UI components ([#167](https://github.com/rgcoaz07u/mimir-wallet/issues/167)) ([29c6ac8](https://github.com/rgcoaz07u/mimir-wallet/commit/29c6ac8ae1abf389732a2f1e7bea308db61db41e))
+* Add group by date for transaction ([#284](https://github.com/rgcoaz07u/mimir-wallet/issues/284)) ([eb2238e](https://github.com/rgcoaz07u/mimir-wallet/commit/eb2238e1ec219cf63217c5e819104af6ba028c67))
+* Add moonbeam and tanssi network support ([#327](https://github.com/rgcoaz07u/mimir-wallet/issues/327)) ([5ecb3c6](https://github.com/rgcoaz07u/mimir-wallet/commit/5ecb3c659fbfe5ce8239b9ba259094e17731a691))
+* Add multi-transfer app ([#271](https://github.com/rgcoaz07u/mimir-wallet/issues/271)) ([3e11775](https://github.com/rgcoaz07u/mimir-wallet/commit/3e117758602def0631fd05ab419652964236b941))
+* Add notification center feature ([#282](https://github.com/rgcoaz07u/mimir-wallet/issues/282)) ([00828f5](https://github.com/rgcoaz07u/mimir-wallet/commit/00828f5090bf3fc1418aa3faca03065527ff0028))
+* add permission check when submit transaction ([#164](https://github.com/rgcoaz07u/mimir-wallet/issues/164)) ([bc42a76](https://github.com/rgcoaz07u/mimir-wallet/commit/bc42a761789edec41336f998610581b8748e9ba5))
+* Add polkassembly app supported ([#265](https://github.com/rgcoaz07u/mimir-wallet/issues/265)) ([bded731](https://github.com/rgcoaz07u/mimir-wallet/commit/bded7316b638f97afebb4681630e121395b5aee8))
+* add posthog integration ([#276](https://github.com/rgcoaz07u/mimir-wallet/issues/276)) ([68b4d98](https://github.com/rgcoaz07u/mimir-wallet/commit/68b4d9826e03b86da4760d80230854f7c89c92d6))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/rgcoaz07u/mimir-wallet/issues/171)) ([0a4ba70](https://github.com/rgcoaz07u/mimir-wallet/commit/0a4ba700ed0052d35d804a4de235bbeb516ea2ec))
+* Add regoinx dapp support ([65a4874](https://github.com/rgcoaz07u/mimir-wallet/commit/65a48745ac483033f3448c1f494729959fc51253))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/rgcoaz07u/mimir-wallet/issues/321)) ([65579d6](https://github.com/rgcoaz07u/mimir-wallet/commit/65579d6fa181294d84b7e47472882c7e25f2d756))
+* Add remote proxy support ([#236](https://github.com/rgcoaz07u/mimir-wallet/issues/236)) ([645c27f](https://github.com/rgcoaz07u/mimir-wallet/commit/645c27f533e0e6d86005a3e6600e08acd8743aa2))
+* Add sonner to replace react-toastify ([#280](https://github.com/rgcoaz07u/mimir-wallet/issues/280)) ([7171a18](https://github.com/rgcoaz07u/mimir-wallet/commit/7171a183b03f7f1494bfc4124bcaff60ee5f8175))
+* add template detail view functionality ([#174](https://github.com/rgcoaz07u/mimir-wallet/issues/174)) ([8cde188](https://github.com/rgcoaz07u/mimir-wallet/commit/8cde18890ec90ea905bd922e6b2fdbb7e9f982bb))
+* Add tooltip for favorite dapp items ([#275](https://github.com/rgcoaz07u/mimir-wallet/issues/275)) ([b1be74f](https://github.com/rgcoaz07u/mimir-wallet/commit/b1be74f21d6d1f7ec331ae8e048a5b1d8e057a52))
+* add transaction subscription functionality ([#213](https://github.com/rgcoaz07u/mimir-wallet/issues/213)) ([6018df7](https://github.com/rgcoaz07u/mimir-wallet/commit/6018df78c86614315984ed0acf66f189b5e2acee))
+* add visible field to DappOption for display control ([#305](https://github.com/rgcoaz07u/mimir-wallet/issues/305)) ([1aa14b9](https://github.com/rgcoaz07u/mimir-wallet/commit/1aa14b9c0c470b03095e601d9a641ddfd44dd457))
+* Add walletconnect in dapp page ([#217](https://github.com/rgcoaz07u/mimir-wallet/issues/217)) ([6a17bd7](https://github.com/rgcoaz07u/mimir-wallet/commit/6a17bd7db098290bca897073a8e18ca643529daf))
+* Add zkverify mainnet support ([#312](https://github.com/rgcoaz07u/mimir-wallet/issues/312)) ([c91e579](https://github.com/rgcoaz07u/mimir-wallet/commit/c91e5799732e4575d6084d539d2c98933f9fe864))
+* Add zkVerify testnet supported ([#251](https://github.com/rgcoaz07u/mimir-wallet/issues/251)) ([2be63bf](https://github.com/rgcoaz07u/mimir-wallet/commit/2be63bfb1e816520cb4786eccfb1704925bc0925))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/rgcoaz07u/mimir-wallet/issues/215)) ([3de8511](https://github.com/rgcoaz07u/mimir-wallet/commit/3de85113b5c68249c94dd4e75741ffb14129450c))
+* change polkadot cloud staking app informations ([#307](https://github.com/rgcoaz07u/mimir-wallet/issues/307)) ([46f2a22](https://github.com/rgcoaz07u/mimir-wallet/commit/46f2a22900cc83226712c4551cce470aec4266e4))
+* **dapp:** Add bounties app developed by the PAPI team ([#262](https://github.com/rgcoaz07u/mimir-wallet/issues/262)) ([ea185bb](https://github.com/rgcoaz07u/mimir-wallet/commit/ea185bb6d8853304adcb2dd4345cae240dc25428))
+* **dapp:** implement custom dapp management system ([#249](https://github.com/rgcoaz07u/mimir-wallet/issues/249)) ([0b64b2d](https://github.com/rgcoaz07u/mimir-wallet/commit/0b64b2d1e2a6ec4fc158c0ef8c09a657c2c7ad98))
+* distinguish between transactions already added to batch and those not yet added in Restore page to prevent duplicate additions ([#200](https://github.com/rgcoaz07u/mimir-wallet/issues/200)) ([167372a](https://github.com/rgcoaz07u/mimir-wallet/commit/167372a1f491941a493ed9f63b9e67c01462e19f))
+* enable restore batch from remote ([#173](https://github.com/rgcoaz07u/mimir-wallet/issues/173)) ([ccf298b](https://github.com/rgcoaz07u/mimir-wallet/commit/ccf298b595d4c60e62dd76fdcb77530d0939666f))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/rgcoaz07u/mimir-wallet/issues/254)) ([ed00356](https://github.com/rgcoaz07u/mimir-wallet/commit/ed003565a713668679231596b4e50ea5dc94e6b3))
+* implement AssetHub migration support ([#259](https://github.com/rgcoaz07u/mimir-wallet/issues/259)) ([cc79169](https://github.com/rgcoaz07u/mimir-wallet/commit/cc791693e105876be36fe62b5db1c970ef1d7612))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/rgcoaz07u/mimir-wallet/issues/198)) ([edd4951](https://github.com/rgcoaz07u/mimir-wallet/commit/edd49515f0596f97ae6bb081ef375fccbf61be5e))
+* implement success UI for multisig account creation ([#216](https://github.com/rgcoaz07u/mimir-wallet/issues/216)) ([18751dd](https://github.com/rgcoaz07u/mimir-wallet/commit/18751dd9afa1ca52695489d7d9df784444163bb7))
+* implement WalletConnect integration for seamless dApp connections ([#206](https://github.com/rgcoaz07u/mimir-wallet/issues/206)) ([f1c9261](https://github.com/rgcoaz07u/mimir-wallet/commit/f1c9261fc92a8a5442f6db51140606c999ae7c04))
+* Improve UI display and user experience ([#218](https://github.com/rgcoaz07u/mimir-wallet/issues/218)) ([5e44c17](https://github.com/rgcoaz07u/mimir-wallet/commit/5e44c170970d87d716d54228d7c88242f6cedf1b))
+* migrate some ui components to shadcn ([#278](https://github.com/rgcoaz07u/mimir-wallet/issues/278)) ([9958dd6](https://github.com/rgcoaz07u/mimir-wallet/commit/9958dd6dd6a89fd5a140fa45a2f12e8acc8a4687))
+* Optimize balance retrieval logic ([#311](https://github.com/rgcoaz07u/mimir-wallet/issues/311)) ([ada5dba](https://github.com/rgcoaz07u/mimir-wallet/commit/ada5dba9137dd099e22c1e68625db0bf6e184060))
+* optimize rpc connection and improve network stability ([#193](https://github.com/rgcoaz07u/mimir-wallet/issues/193)) ([95198bf](https://github.com/rgcoaz07u/mimir-wallet/commit/95198bfea2891d4b414f899b8f86025e7d9eb029))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/rgcoaz07u/mimir-wallet/issues/270)) ([6dbf3e7](https://github.com/rgcoaz07u/mimir-wallet/commit/6dbf3e73733099a439fc65ce78fd97ad5eea237f))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/rgcoaz07u/mimir-wallet/issues/293)) ([0f38554](https://github.com/rgcoaz07u/mimir-wallet/commit/0f3855477a80c1b7a32ec12dfcdb6c257870fb43))
+* remove assethub next westend network ([#232](https://github.com/rgcoaz07u/mimir-wallet/issues/232)) ([b7d914e](https://github.com/rgcoaz07u/mimir-wallet/commit/b7d914ee32ba68b4b58af342aa55526ce2e37b38))
+* remove batch restore functionality ([#204](https://github.com/rgcoaz07u/mimir-wallet/issues/204)) ([ab01dfc](https://github.com/rgcoaz07u/mimir-wallet/commit/ab01dfcd21dd84471f7e5a3b52b57ef09f971885))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/rgcoaz07u/mimir-wallet/issues/162)) ([4309e6c](https://github.com/rgcoaz07u/mimir-wallet/commit/4309e6ce0966cb85589ca93b82aea0459e1ae38a))
+* subscribe wallet accounts changed ([#176](https://github.com/rgcoaz07u/mimir-wallet/issues/176)) ([a71332d](https://github.com/rgcoaz07u/mimir-wallet/commit/a71332d47a9fd539a20ffa5f7c1187f4cc836ecf))
+* Support eth address transfer on westend ([#234](https://github.com/rgcoaz07u/mimir-wallet/issues/234)) ([976274c](https://github.com/rgcoaz07u/mimir-wallet/commit/976274c99460f8bb57984df2a32c76eaa568f715))
+* support eth address trasfer on westend assethub ([#224](https://github.com/rgcoaz07u/mimir-wallet/issues/224)) ([6d10d64](https://github.com/rgcoaz07u/mimir-wallet/commit/6d10d644bdd365310e28c943f835a2af3b0eda90))
+* **transactions:** refactor approval flow with enhanced multisig execution ([#256](https://github.com/rgcoaz07u/mimir-wallet/issues/256)) ([fb6ec96](https://github.com/rgcoaz07u/mimir-wallet/commit/fb6ec96db9ef349c2e1caf241a2173f0556159d8))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/rgcoaz07u/mimir-wallet/issues/261)) ([25fb775](https://github.com/rgcoaz07u/mimir-wallet/commit/25fb775c0111e30259dbd35b9c2b37999e1381e4))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/rgcoaz07u/mimir-wallet/issues/268)) ([73d81e1](https://github.com/rgcoaz07u/mimir-wallet/commit/73d81e14a171867483c61f7f897a87c3178a957a))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/rgcoaz07u/mimir-wallet/issues/267)) ([f75e6b4](https://github.com/rgcoaz07u/mimir-wallet/commit/f75e6b46e91d210b2d5d5aad39a5f4e04c1ad7a4))
+* Update asset price source ([#244](https://github.com/rgcoaz07u/mimir-wallet/issues/244)) ([87f24cd](https://github.com/rgcoaz07u/mimir-wallet/commit/87f24cd6e04c4cb3712fceb7abe600b26f14c529))
+* Update google analytic config ([#202](https://github.com/rgcoaz07u/mimir-wallet/issues/202)) ([d07f3ea](https://github.com/rgcoaz07u/mimir-wallet/commit/d07f3ea49d1eb78752a682075de33b27c983a946))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/rgcoaz07u/mimir-wallet/issues/247)) ([33cdacd](https://github.com/rgcoaz07u/mimir-wallet/commit/33cdacd7959505c2fbc73a34bc8a505a095bbdcc))
+
+
+### Bug Fixes
+
+* Add LiquidityRestrictions error handling for reserve lock checks ([#197](https://github.com/rgcoaz07u/mimir-wallet/issues/197)) ([e85f873](https://github.com/rgcoaz07u/mimir-wallet/commit/e85f873203752e29326ec766e583c005faf9877f))
+* filter proposers by network when displaying proposers ([#188](https://github.com/rgcoaz07u/mimir-wallet/issues/188)) ([68da775](https://github.com/rgcoaz07u/mimir-wallet/commit/68da775098fe31716deb7910824a1b5de4e2f7a9))
+* fix batch scrollbar issue ([#182](https://github.com/rgcoaz07u/mimir-wallet/issues/182)) ([6f5d7da](https://github.com/rgcoaz07u/mimir-wallet/commit/6f5d7dad429fc9941cd6521d4ef4ae886220ec00))
+* fix call proxy error in member set and create pure ([#195](https://github.com/rgcoaz07u/mimir-wallet/issues/195)) ([9394fb4](https://github.com/rgcoaz07u/mimir-wallet/commit/9394fb48f7e16e26d6e8162318ca6c7becd4d771))
+* fix create flexible multisig error when creating multisig account ([#191](https://github.com/rgcoaz07u/mimir-wallet/issues/191)) ([08c427b](https://github.com/rgcoaz07u/mimir-wallet/commit/08c427b3601b80e3b65a246f49e58437199b32e2))
+* fix dapp page layout style ([#253](https://github.com/rgcoaz07u/mimir-wallet/issues/253)) ([3bf4c61](https://github.com/rgcoaz07u/mimir-wallet/commit/3bf4c616754ae92d1ba75e6f7923c8f969d90217))
+* fix icon color to use currentColor ([#186](https://github.com/rgcoaz07u/mimir-wallet/issues/186)) ([682d6ee](https://github.com/rgcoaz07u/mimir-wallet/commit/682d6ee0a5a7ad2e88b63d027e6a331ba623a185))
+* fix regionx dapp tag ([a71c4ab](https://github.com/rgcoaz07u/mimir-wallet/commit/a71c4ab6c0443369c30ad965144c81cba08838cd))
+* Fix some issues while connect wallet ([#220](https://github.com/rgcoaz07u/mimir-wallet/issues/220)) ([28eb559](https://github.com/rgcoaz07u/mimir-wallet/commit/28eb559ba06eaa2806f339f5f1d2370667333c9b))
+* fix some ui issues ([3556f62](https://github.com/rgcoaz07u/mimir-wallet/commit/3556f6206aee76408bb8ad9e19bed6f28fc77faf))
+* Fix some UI issues ([#257](https://github.com/rgcoaz07u/mimir-wallet/issues/257)) ([9d1b4c8](https://github.com/rgcoaz07u/mimir-wallet/commit/9d1b4c89ca943ebb33682a1f7e7fb442a4a60b25))
+* Fix some ui issues ([#274](https://github.com/rgcoaz07u/mimir-wallet/issues/274)) ([652c843](https://github.com/rgcoaz07u/mimir-wallet/commit/652c843290775a1598c9b124acc39384924c8288))
+* fix some ui issues ([#286](https://github.com/rgcoaz07u/mimir-wallet/issues/286)) ([878bf50](https://github.com/rgcoaz07u/mimir-wallet/commit/878bf502a8499679aa17232c3e7eef706c218f3d))
+* fix transfer display issue in batch call ([#184](https://github.com/rgcoaz07u/mimir-wallet/issues/184)) ([64cd6b5](https://github.com/rgcoaz07u/mimir-wallet/commit/64cd6b519afd96d7da44dd95b24183a53d326adb))
+* Fix ui hierarchy issues ([#303](https://github.com/rgcoaz07u/mimir-wallet/issues/303)) ([e83fb0f](https://github.com/rgcoaz07u/mimir-wallet/commit/e83fb0f893170ca9a5f72d9ab5798855827cd194))
+* Fixed the issue of not being able to open dapp ([a859edc](https://github.com/rgcoaz07u/mimir-wallet/commit/a859edc556a58adf79bf9aa87fb382a7e1d99884))
+* Fixed the problem of empty ui and skeleton appearing at the same time ([#289](https://github.com/rgcoaz07u/mimir-wallet/issues/289)) ([fb1a6a5](https://github.com/rgcoaz07u/mimir-wallet/commit/fb1a6a50c74154c3ded34e6e85a96f7d4533fbd1))
+* improve user experience and fix bugs ([#222](https://github.com/rgcoaz07u/mimir-wallet/issues/222)) ([97c40cf](https://github.com/rgcoaz07u/mimir-wallet/commit/97c40cf2939ea2a24bb7e9eba404a327f8899fcd))
+* modal style and account menu style ([#170](https://github.com/rgcoaz07u/mimir-wallet/issues/170)) ([35a2d71](https://github.com/rgcoaz07u/mimir-wallet/commit/35a2d712fae81abca594aabc9ef9ad833dc3acd5))
+* optimize balance fetching performance ([#228](https://github.com/rgcoaz07u/mimir-wallet/issues/228)) ([f26d3e3](https://github.com/rgcoaz07u/mimir-wallet/commit/f26d3e38ae2c51f75be1d87ae115b73f9c68228d))
+* optimize user experience and fix some bugs ([#226](https://github.com/rgcoaz07u/mimir-wallet/issues/226)) ([f7bef4c](https://github.com/rgcoaz07u/mimir-wallet/commit/f7bef4c6ce97d45897b13fcb9d802f8ef76b8930))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/rgcoaz07u/mimir-wallet/issues/165)) ([5ffc85d](https://github.com/rgcoaz07u/mimir-wallet/commit/5ffc85da331a805ded3abe7bdcf3ff341f504658))
+* resolve transaction error caused by dryRun issue ([#211](https://github.com/rgcoaz07u/mimir-wallet/issues/211)) ([c103287](https://github.com/rgcoaz07u/mimir-wallet/commit/c103287d8b00f2aefb2334134761dfaba8f0673e))
+* show cancel button for non-pure accounts ([#241](https://github.com/rgcoaz07u/mimir-wallet/issues/241)) ([8a295a9](https://github.com/rgcoaz07u/mimir-wallet/commit/8a295a9c8ff38dd6d6396fe068034dcbce04fd32))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @mimir-wallet/polkadot-core bumped to 3.0.0
+    * @mimir-wallet/service bumped to 3.0.0
+    * @mimir-wallet/ui bumped to 3.0.0
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/mimir-wallet-app-v2.31.0...mimir-wallet-app-v2.32.0) (2025-10-14)
 
 

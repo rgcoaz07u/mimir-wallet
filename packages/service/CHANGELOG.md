@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/rgcoaz07u/mimir-wallet/compare/service-v2.32.0...service-v3.0.0) (2025-10-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/rgcoaz07u/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/rgcoaz07u/mimir-wallet/issues/181)) ([e3aeae4](https://github.com/rgcoaz07u/mimir-wallet/commit/e3aeae41514db3b9602b207cff26cd82032eb811))
+* Add cross-chain calldata display component ([#291](https://github.com/rgcoaz07u/mimir-wallet/issues/291)) ([d337da4](https://github.com/rgcoaz07u/mimir-wallet/commit/d337da480763997b776613ad966a471b6b044d38))
+* Add dry run API support for transaction simulation ([#207](https://github.com/rgcoaz07u/mimir-wallet/issues/207)) ([a121cf1](https://github.com/rgcoaz07u/mimir-wallet/commit/a121cf1b437ec80af9810835f70dbf4a706b0450))
+* Add notification center feature ([#282](https://github.com/rgcoaz07u/mimir-wallet/issues/282)) ([00828f5](https://github.com/rgcoaz07u/mimir-wallet/commit/00828f5090bf3fc1418aa3faca03065527ff0028))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/rgcoaz07u/mimir-wallet/issues/171)) ([0a4ba70](https://github.com/rgcoaz07u/mimir-wallet/commit/0a4ba700ed0052d35d804a4de235bbeb516ea2ec))
+* Add remote proxy support ([#236](https://github.com/rgcoaz07u/mimir-wallet/issues/236)) ([645c27f](https://github.com/rgcoaz07u/mimir-wallet/commit/645c27f533e0e6d86005a3e6600e08acd8743aa2))
+* add transaction subscription functionality ([#213](https://github.com/rgcoaz07u/mimir-wallet/issues/213)) ([6018df7](https://github.com/rgcoaz07u/mimir-wallet/commit/6018df78c86614315984ed0acf66f189b5e2acee))
+* Add zkVerify testnet supported ([#251](https://github.com/rgcoaz07u/mimir-wallet/issues/251)) ([2be63bf](https://github.com/rgcoaz07u/mimir-wallet/commit/2be63bfb1e816520cb4786eccfb1704925bc0925))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/rgcoaz07u/mimir-wallet/issues/198)) ([edd4951](https://github.com/rgcoaz07u/mimir-wallet/commit/edd49515f0596f97ae6bb081ef375fccbf61be5e))
+* Improve UI display and user experience ([#218](https://github.com/rgcoaz07u/mimir-wallet/issues/218)) ([5e44c17](https://github.com/rgcoaz07u/mimir-wallet/commit/5e44c170970d87d716d54228d7c88242f6cedf1b))
+* Optimize balance retrieval logic ([#311](https://github.com/rgcoaz07u/mimir-wallet/issues/311)) ([ada5dba](https://github.com/rgcoaz07u/mimir-wallet/commit/ada5dba9137dd099e22c1e68625db0bf6e184060))
+* remove assethub next westend network ([#232](https://github.com/rgcoaz07u/mimir-wallet/issues/232)) ([b7d914e](https://github.com/rgcoaz07u/mimir-wallet/commit/b7d914ee32ba68b4b58af342aa55526ce2e37b38))
+* remove batch restore functionality ([#204](https://github.com/rgcoaz07u/mimir-wallet/issues/204)) ([ab01dfc](https://github.com/rgcoaz07u/mimir-wallet/commit/ab01dfcd21dd84471f7e5a3b52b57ef09f971885))
+* subscribe wallet accounts changed ([#176](https://github.com/rgcoaz07u/mimir-wallet/issues/176)) ([a71332d](https://github.com/rgcoaz07u/mimir-wallet/commit/a71332d47a9fd539a20ffa5f7c1187f4cc836ecf))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/rgcoaz07u/mimir-wallet/issues/261)) ([25fb775](https://github.com/rgcoaz07u/mimir-wallet/commit/25fb775c0111e30259dbd35b9c2b37999e1381e4))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/rgcoaz07u/mimir-wallet/issues/267)) ([f75e6b4](https://github.com/rgcoaz07u/mimir-wallet/commit/f75e6b46e91d210b2d5d5aad39a5f4e04c1ad7a4))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.31.0...service-v2.32.0) (2025-10-14)
 
 
